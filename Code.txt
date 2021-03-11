@@ -1,1 +1,44 @@
-Hi! Intellipaat Team
+Hi! Intellipaat Team & Viewers
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/ipatass (master)
+$ history
+    1  ssh -i "ipatsecgp1key.pem" ubuntu@ec2-3-142-95-106.us-east-2.compute.amazonaws.com
+    2  git --version
+    3  git help
+    4  git help config
+    5  git config --help
+    6  mkdir test
+    7  cd test
+    8  git init
+    9  git status
+    git config --global user.username Devasenapl
+   14  git config --global user.email devasenapl@gmail.com
+   15  git config --global --list
+   16  git config --global --list
+   17  git remote add origin https://github.com/Devasenapl/test_demo.git
+   21  git status
+   22  git add demo.txt
+   23  git commit -m "first commit"
+   24  git push origin master
+   66  ssh-keygen
+   67  ssh-keygen
+   68  cat /c/Users/Devasena/.ssh/id_rsa
+   69  cat y.pub
+   70  ssh -T git@github.com
+   71  ssh -T git@github.com:Devasenapl/test_demo.git
+   77  mkdir ipatass
+   78  cd ipatass
+   79  ls -ltr
+   87  git config --global user.name Devasenapl
+   88  git init
+   89  git add Code.txt
+   90  git status
+   91  git commit -m Code.txt
+   92  git add Output.txt
+   93  git commit -m Output.txt
+   95  git remote add origin https://github.com/Devasenapl/Git-Assignment-.git
+   96  git push origin master
+   97  git pull origin master
+   98  history
+   101  touch code1.txt
+   102  touch output1.txt
+
