@@ -1,1 +1,100 @@
-Welcome to Intellipaat Team
+Welcome to Intellipaat Team & Viewers, Coders
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ git --version
+git version 2.30.1.windows.1
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ git help config
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ git config --help
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ mkdir test
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~
+$ cd test
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test
+$ git init
+Initialized empty Git repository in C:/Users/Devasena/test/.git/
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo.txt
+        doc1.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git add demo.txt
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git commit -m "committing a text file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Devasena@DESKTOP-TJFCDHL.(none)')
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ ssh -i ipatsecgp1.pem ubuntu@3.142.95.106
+Warning: Identity file ipatsecgp1.pem not accessible: No such file or directory.
+ubuntu@3.142.95.106: Permission denied (publickey).
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git config --global user.username Devasenapl
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git config --global user.email devasenapl@gmail.com
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+user.username=Devasenapl
+user.email=devasenapl@gmail.com
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git config --global --list
+user.username=Devasenapl
+user.email=devasenapl@gmail.com
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git remote add origin https://github.com/Devasenapl/test_demo.git
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git add demo.txt
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git commit -m "first commit"
+[master (root-commit) 3386e6a] first commit
+ 1 file changed, 8 insertions(+)
+ create mode 100644 demo.txt
+
+Devasena@DESKTOP-TJFCDHL MINGW64 ~/test (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Devasenapl/test_demo.git
+ * [new branch]      master -> master
