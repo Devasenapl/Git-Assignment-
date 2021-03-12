@@ -1,1 +1,48 @@
 
+Module2 Codings
+~~~~~~~~~~~~~~~~
+
+ 114  git --version
+  115  git config --global user.username Devasenapl
+  116  cd ipatass
+  117  git status
+  118  ls -ltr
+  119  touch feature1.txt
+  120  touch feature2.txt
+  121  ls -ltr
+  122  git branch develop
+  123  git branch feature1
+  124  git branch feature2
+  125  git checkout develop
+  126  touch develop.txt
+  127  git add develop.txt
+  128  ls -ltr
+  129  git checkout master
+  130  ls -ltr
+  131  git checkout feature1
+  132  tocuch new.txt
+  133  touch new.txt
+  134  git add new.txt
+  135  git commit -m "adding new file into feature1 branch"
+  136  ls
+  137  git checkout master
+  138  ls
+  163  git --version
+  164  git config --global user.username Devasenapl
+  165  cd ipatass
+  166  git status
+  167  ls -ltr
+  168  touch develop.txt
+  169  git stash save "develop_stash"
+  170  git stash list
+  171  git stash drop stash@{1}
+  172  git stash list
+  173  git stash clear
+  174  git stash list
+  175  git add develop.txt
+  176  git commit -m "develop_commit"
+  177  git status
+  178  ls
+  179  ls -ltr
+  180  git checkout feature1
+  181  git checkout develop
